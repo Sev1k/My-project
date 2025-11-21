@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Build files
+/dist
+/build
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# OS/Editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Photos or Private Assets
+photos/
+assets/private/
+uploads/

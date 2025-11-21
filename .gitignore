@@ -1,0 +1,55 @@
+#########################
+# GLOBAL IGNORE
+#########################
+
+# Mac / Windows / System files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+#########################
+# BACKEND IGNORE (Node.js / Express)
+#########################
+
+server/node_modules/
+server/.env
+server/.env.local
+server/.env.production
+
+# Logs
+server/npm-debug.log
+server/yarn-error.log
+server/logs/
+
+#########################
+# FRONTEND IGNORE (React)
+#########################
+
+client/node_modules/
+client/.env
+client/.env.local
+client/.env.development
+client/.env.production
+
+# React build
+client/build/
+client/dist/
+
+#########################
+# PRIVATE ASSETS
+#########################
+
+gallery/
+images/
+photos/
+uploads/
+assets/private/
+
+#########################
+# OTHER
+#########################
+
+*.log
