@@ -4,7 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node index.js",
     "dev": "nodemon index.js"
   },
   "keywords": [],
@@ -16,9 +16,9 @@
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
     "jsonfile": "^6.2.0",
-    "mongodb": "^7.0.0",
+    "mongodb": "^7.5.0",
     "mongoose": "^8.18.3",
-    "nodemailer": "^7.0.10"
+    "nodemailer": "^9.0.5"
   },
   "devDependencies": {
     "nodemon": "^3.1.11"
